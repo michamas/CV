@@ -1,0 +1,34 @@
+body {
+  background: #f5f7fa;
+  font-family: "Montserrat", sans-serif;
+}
+li {
+  color: green;
+}
+h2 {
+  color: red;
+}
+.description {
+  color: blue;
+}
+/* klasa wrapper automatycznie segreguje nam 
+elementy strony obok siebie*/
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  /* zmieniliśmy kolejność main, potem aside.
+  row reverse zamienia kolejnosc flexa*/
+  justify-content: center;
+  margin: 0 auto;
+  /*dwa powyzsze wiersze centruja nam CV na stronie*/
+  width: 1200px;
+  background: #FFFFFF;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.main-description{
+    background: red;
+    margin: 20px;/*margines zewnetrzny bloku czerwonego*/
+    padding: 40px;/*odleglosc wewnatrz, tekstu od krawedzi boxa*/
+    
+}
